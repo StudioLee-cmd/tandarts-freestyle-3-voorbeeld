@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>DentalTech | Tandarts Utrecht</title>
+<meta name="description" content="DentalTech Utrecht — hightech tandheelkunde met een menselijke touch. Implantaten, orthodontie en cosmetische behandelingen met de nieuwste technologie.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=JetBrains+Mono:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+<script src="https://unpkg.com/lucide@latest"></script>
+  <script src="https://cdn.jsdelivr.net/npm/iconify-icon@1.0.8/dist/iconify-icon.min.js"></script>
+</head>
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar" id="navbar">
+  <div class="nav-inner">
+    <a href="#" class="nav-logo">Dental<span>Tech</span></a>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#diensten">Diensten</a></li>
+      <li><a href="#over-ons">Over Ons</a></li>
+      <li><a href="#voor-en-na">Resultaten</a></li>
+      <li><a href="#blog">Blog</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <a href="#contact" class="nav-cta">Afspraak &rarr;</a>
+    <button class="nav-toggle" id="navToggle" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</nav>
+
+<!-- HERO -->
+<header class="hero" id="hero">
+  <div class="hero-grid-bg"></div>
+  <div class="hero-inner">
+    <div class="hero-content">
+      <div class="hero-tag" data-animate="fade-up">
+        <span class="tag-dot"></span>
+        <span>Vertrouwde tandartsen in Utrecht</span>
+      </div>
+      <h1 data-animate="fade-up" data-delay="0.1">
+        Tandheelkunde<br>
+        van de <span class="text-accent text-glitch" data-text="toekomst">toekomst</span>
+      </h1>
+      <p data-animate="fade-up" data-delay="0.2">Wij combineren geavanceerde technologie met persoonlijke zorg. Van AI-gestuurde diagnostiek tot robotische implantaatplaatsing — welkom bij de toekomst van tandzorg.</p>
+      <div class="hero-actions" data-animate="fade-up" data-delay="0.3">
+        <a href="#contact" class="btn btn-primary"><span>Boek Consult</span><span class="btn-arrow">&rarr;</span></a>
+        <a href="#diensten" class="btn btn-ghost">Ontdek Meer</a>
+      </div>
+    </div>
+    <div class="hero-visual" data-animate="fade-left">
+      <div class="hero-img-wrapper">
+        <img src="images/hero.jpg" alt="DentalTech hightech praktijk" loading="eager">
+        <div class="hero-scan-line"></div>
+      </div>
+      <div class="hero-float-card hfc-1">
+        <span class="hfc-value counter" data-target="98">0</span>
+        <span class="hfc-label">% Precisie</span>
+      </div>
+      <div class="hero-float-card hfc-2">
+        <span class="hfc-icon"><i data-lucide="shield-check"></i></span>
+        <span class="hfc-label">ISO Gecertificeerd</span>
+      </div>
+    </div>
+  </div>
+  <div class="hero-metrics">
+    <div class="metric" data-animate="fade-up" data-delay="0.1">
+      <span class="metric-num counter" data-target="3200">0</span>
+      <span class="metric-label">Succesvolle behandelingen</span>
+    </div>
+    <div class="metric" data-animate="fade-up" data-delay="0.15">
+      <span class="metric-num counter" data-target="8">0</span>
+      <span class="metric-label">Specialisten in huis</span>
+    </div>
+    <div class="metric" data-animate="fade-up" data-delay="0.2">
+      <span class="metric-num counter" data-target="15">0</span>
+      <span class="metric-label">Minuten gemiddelde wachttijd</span>
+    </div>
+    <div class="metric" data-animate="fade-up" data-delay="0.25">
+      <span class="metric-num counter" data-target="99">0</span>
+      <span class="metric-label">% Implantaat slagingspercentage</span>
+    </div>
+  </div>
+</header>
+
+<!-- MARQUEE -->
+<section class="marquee-section">
+  <div class="marquee-track">
+    <div class="marquee-content">
+      <span>Controle & Reiniging</span><span class="marquee-slash">//</span>
+      <span>Vullingen & Kronen</span><span class="marquee-slash">//</span>
+      <span>Implantaten</span><span class="marquee-slash">//</span>
+      <span>Orthodontie</span><span class="marquee-slash">//</span>
+      <span>Cosmetisch</span><span class="marquee-slash">//</span>
+      <span>Mondhygiene</span><span class="marquee-slash">//</span>
+      <span>Controle & Reiniging</span><span class="marquee-slash">//</span>
+      <span>Vullingen & Kronen</span><span class="marquee-slash">//</span>
+      <span>Implantaten</span><span class="marquee-slash">//</span>
+      <span>Orthodontie</span><span class="marquee-slash">//</span>
+      <span>Cosmetisch</span><span class="marquee-slash">//</span>
+      <span>Mondhygiene</span><span class="marquee-slash">//</span>
+    </div>
+  </div>
+</section>
+  <div class="ticker" style="background:var(--color-accent,#f5a623);padding:12px 0;overflow:hidden;">
+    <div style="display:flex;gap:48px;animation:tickerScroll 20s linear infinite;white-space:nowrap;">
+      <span><iconify-icon icon="lucide:smile"></iconify-icon> Controle</span><span><iconify-icon icon="lucide:shield-check"></iconify-icon> Vullingen</span><span><iconify-icon icon="lucide:pin"></iconify-icon> Implantaten</span><span><iconify-icon icon="lucide:move-horizontal"></iconify-icon> Orthodontie</span><span><iconify-icon icon="lucide:sparkles"></iconify-icon> Cosmetisch</span><span><iconify-icon icon="lucide:heart"></iconify-icon> Mondhygiëne</span><span><iconify-icon icon="lucide:smile"></iconify-icon> Controle</span><span><iconify-icon icon="lucide:shield-check"></iconify-icon> Vullingen</span><span><iconify-icon icon="lucide:pin"></iconify-icon> Implantaten</span><span><iconify-icon icon="lucide:move-horizontal"></iconify-icon> Orthodontie</span><span><iconify-icon icon="lucide:sparkles"></iconify-icon> Cosmetisch</span><span><iconify-icon icon="lucide:heart"></iconify-icon> Mondhygiëne</span>
+    </div>
+  </div>
+  <style>@keyframes tickerScroll{0%{transform:translateX(0)}100%{transform:translateX(-50%)}}</style>
+  <style>.ticker span{display:inline-flex;align-items:center;gap:8px;font-size:0.85rem;font-weight:700;color:var(--color-bg,#0a0a0f);text-transform:uppercase;letter-spacing:0.05em;}</style>
+
+
+<!-- DIENSTEN -->
+<section class="services" id="diensten">
+  <div class="container">
+    <div class="section-header" data-animate="fade-up">
+      <span class="section-label">&lt;diensten /&gt;</span>
+      <h2>Hightech <span class="text-accent">behandelingen</span></h2>
+      <p>Elke behandeling wordt ondersteund door de nieuwste technologie. Precisie, comfort en voorspelbare resultaten.</p>
+    </div>
+    <div class="services-grid">
+      <div class="service-card" data-animate="fade-up" data-delay="0">
+        <div class="service-top">
+          <div class="service-icon"><i data-lucide="smile"></i></div>
+          <span class="service-tag">01</span>
+        </div>
+        <h3>Controle & Reiniging</h3>
+        <p>Intra-orale camera's en digitale scans voor nauwkeurige diagnostiek. Airflow reiniging voor een grondige, zachte clean.</p>
+        <div class="service-line"></div>
+      </div>
+      <div class="service-card" data-animate="fade-up" data-delay="0.05">
+        <div class="service-top">
+          <div class="service-icon"><i data-lucide="shield-check"></i></div>
+          <span class="service-tag">02</span>
+        </div>
+        <h3>Vullingen & Kronen</h3>
+        <p>CAD/CAM technologie voor same-day kronen. Biomateriaal vullingen die naadloos integreren met uw natuurlijke gebit.</p>
+        <div class="service-line"></div>
+      </div>
+      <div class="service-card" data-animate="fade-up" data-delay="0.1">
+        <div class="service-top">
+          <div class="service-icon"><i data-lucide="pin"></i></div>
+          <span class="service-tag">03</span>
+        </div>
+        <h3>Implantaten</h3>
+        <p>3D-geplande, robotisch geleide implantaatplaatsing. Navigatiesoftware voor sub-millimeter precisie.</p>
+        <div class="service-line"></div>
+      </div>
+      <div class="service-card" data-animate="fade-up" data-delay="0.15">
+        <div class="service-top">
+          <div class="service-icon"><i data-lucide="move-horizontal"></i></div>
+          <span class="service-tag">04</span>
+        </div>
+        <h3>Orthodontie</h3>
+        <p>AI-gestuurde behandelplannen met transparante aligners. Voorspel uw eindresultaat voor de behandeling begint.</p>
+        <div class="service-line"></div>
+      </div>
+      <div class="service-card" data-animate="fade-up" data-delay="0.2">
+        <div class="service-top">
+          <div class="service-icon"><i data-lucide="sparkles"></i></div>
+          <span class="service-tag">05</span>
+        </div>
+        <h3>Cosmetisch</h3>
+        <p>Laserbleaching en digitaal ontworpen veneers. DSD (Digital Smile Design) voor uw perfecte glimlach op maat.</p>
+        <div class="service-line"></div>
+      </div>
+      <div class="service-card" data-animate="fade-up" data-delay="0.25">
+        <div class="service-top">
+          <div class="service-icon"><i data-lucide="heart"></i></div>
+          <span class="service-tag">06</span>
+        </div>
+        <h3>Mondhygiene</h3>
+        <p>GBT-protocol (Guided Biofilm Therapy) met EMS Airflow. De gouden standaard in professionele mondhygiene.</p>
+        <div class="service-line"></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- OVER ONS -->
+<section class="about" id="over-ons">
+  <div class="container">
+    <div class="about-grid">
+      <div class="about-content" data-animate="fade-right">
+        <span class="section-label">&lt;over-ons /&gt;</span>
+        <h2>Technologie ontmoet <span class="text-accent">empathie</span></h2>
+        <p>DentalTech Utrecht is opgericht met een missie: de beste technologie inzetten om tandheelkunde comfortabeler, nauwkeuriger en voorspelbaarder te maken.</p>
+        <p>Ons team van 8 specialisten wordt continu bijgeschoold in de nieuwste technieken. We investeren jaarlijks in cutting-edge apparatuur omdat we geloven dat onze patienten het beste verdienen.</p>
+        <div class="about-tech-stack">
+          <div class="tech-item">
+            <span class="tech-dot"></span>
+            <span>CBCT 3D Scanner</span>
+          </div>
+          <div class="tech-item">
+            <span class="tech-dot"></span>
+            <span>Intra-orale Camera</span>
+          </div>
+          <div class="tech-item">
+            <span class="tech-dot"></span>
+            <span>CAD/CAM Freesunit</span>
+          </div>
+          <div class="tech-item">
+            <span class="tech-dot"></span>
+            <span>Diode Laser</span>
+          </div>
+          <div class="tech-item">
+            <span class="tech-dot"></span>
+            <span>EMS Airflow Master</span>
+          </div>
+          <div class="tech-item">
+            <span class="tech-dot"></span>
+            <span>Navigatie Implantologie</span>
+          </div>
+        </div>
+        <a href="#contact" class="btn btn-primary"><span>Bezoek Onze Praktijk</span><span class="btn-arrow">&rarr;</span></a>
+      </div>
+      <div class="about-images" data-animate="fade-left">
+        <div class="about-img-main">
+          <img src="images/about.jpg" alt="DentalTech team" loading="lazy">
+          <div class="img-border-glow"></div>
+        </div>
+        <div class="about-img-secondary">
+          <img src="images/team.jpg" alt="Onze specialisten" loading="lazy">
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- VOOR & NA -->
+<section class="before-after" id="voor-en-na">
+  <div class="container">
+    <div class="section-header" data-animate="fade-up">
+      <span class="section-label">&lt;resultaten /&gt;</span>
+      <h2>Voor & <span class="text-accent">Na</span></h2>
+      <p>Technologische precisie zichtbaar in elk resultaat. Versleep de slider om het verschil te zien.</p>
+    </div>
+    <div class="ba-wrapper" data-animate="fade-up">
+      <div class="ba-slider" id="baSlider">
+        <div class="ba-image ba-before">
+          <img src="images/ba-before.jpg" alt="Voor behandeling" loading="lazy">
+          <span class="ba-label ba-label-before">// VOOR</span>
+        </div>
+        <div class="ba-image ba-after">
+          <img src="images/ba-after.jpg" alt="Na behandeling" loading="lazy">
+          <span class="ba-label ba-label-after">// NA</span>
+        </div>
+        <div class="ba-handle" id="baHandle">
+          <div class="ba-handle-line"></div>
+          <div class="ba-handle-circle"><i data-lucide="move-horizontal"></i></div>
+          <div class="ba-handle-line"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CAROUSEL -->
+<section class="carousel-section">
+  <div class="container">
+    <div class="section-header" data-animate="fade-up">
+      <span class="section-label">&lt;praktijk /&gt;</span>
+      <h2>Onze <span class="text-accent">faciliteiten</span></h2>
+    </div>
+  </div>
+  <div class="carousel" data-animate="fade-up">
+    <div class="carousel-track">
+      <div class="carousel-slide"><img src="images/carousel.jpg" alt="Hightech behandelkamer" loading="lazy"></div>
+      <div class="carousel-slide"><img src="images/project1.jpg" alt="3D scanner" loading="lazy"></div>
+      <div class="carousel-slide"><img src="images/craft.jpg" alt="Tandtechniek lab" loading="lazy"></div>
+      <div class="carousel-slide"><img src="images/detail.jpg" alt="Precisie apparatuur" loading="lazy"></div>
+      <div class="carousel-slide"><img src="images/project2.jpg" alt="Behandelresultaat" loading="lazy"></div>
+      <div class="carousel-slide"><img src="images/kitchen.jpg" alt="Ontvangstruimte" loading="lazy"></div>
+    </div>
+    <div class="carousel-controls">
+      <button class="carousel-btn carousel-prev" aria-label="Vorige"><i data-lucide="arrow-left"></i></button>
+      <div class="carousel-dots"></div>
+      <button class="carousel-btn carousel-next" aria-label="Volgende"><i data-lucide="arrow-right"></i></button>
+    </div>
+  </div>
+</section>
+
+<!-- REVIEWS -->
+<section class="reviews">
+  <div class="container">
+    <div class="section-header" data-animate="fade-up">
+      <span class="section-label">&lt;reviews /&gt;</span>
+      <h2>Wat patienten <span class="text-accent">zeggen</span></h2>
+    </div>
+    <div class="reviews-grid" data-animate="fade-up">
+      <div class="review-card">
+        <div class="review-top">
+          <div class="review-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+          <span class="review-platform">Google</span>
+        </div>
+        <p>"De 3D-scan gaf me direct inzicht in mijn gebit. Mijn kroon was dezelfde dag klaar dankzij hun CAD/CAM systeem. Ongelooflijk."</p>
+        <div class="review-author">
+          <strong>Thomas Vermeer</strong>
+          <span>Implantaat patient</span>
+        </div>
+      </div>
+      <div class="review-card">
+        <div class="review-top">
+          <div class="review-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+          <span class="review-platform">Google</span>
+        </div>
+        <p>"Ik kon op een scherm precies zien hoe mijn glimlach eruit zou zien na de veneers. Het resultaat was identiek aan de simulatie!"</p>
+        <div class="review-author">
+          <strong>Nina de Groot</strong>
+          <span>Cosmetisch patient</span>
+        </div>
+      </div>
+      <div class="review-card">
+        <div class="review-top">
+          <div class="review-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+          <span class="review-platform">Google</span>
+        </div>
+        <p>"Moderne praktijk, vriendelijk team en alles draait om precisie. De alignerbehandeling verliep precies zoals voorspeld."</p>
+        <div class="review-author">
+          <strong>Bram Hendriks</strong>
+          <span>Orthodontie patient</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- BLOG -->
+<section class="blog" id="blog">
+  <div class="container">
+    <div class="section-header" data-animate="fade-up">
+      <span class="section-label">&lt;blog /&gt;</span>
+      <h2>Laatste <span class="text-accent">inzichten</span></h2>
+    </div>
+    <div class="blog-grid" data-animate="fade-up">
+      <article class="blog-card">
+        <div class="blog-img"><img src="images/carousel.jpg" alt="Blog: AI tandheelkunde" loading="lazy"></div>
+        <div class="blog-body">
+          <div class="blog-meta"><span class="blog-tag">Technologie</span><time>12 apr 2026</time></div>
+          <h3>Hoe AI de Tandheelkunde Verandert</h3>
+          <p>Van automatische cariesdetectie tot behandelplanning — de impact van kunstmatige intelligentie.</p>
+          <a href="#" class="blog-link">Lees meer &rarr;</a>
+        </div>
+      </article>
+      <article class="blog-card">
+        <div class="blog-img"><img src="images/craft.jpg" alt="Blog: same-day kronen" loading="lazy"></div>
+        <div class="blog-body">
+          <div class="blog-meta"><span class="blog-tag">Innovatie</span><time>8 apr 2026</time></div>
+          <h3>Same-Day Kronen met CAD/CAM</h3>
+          <p>Geen weken wachten meer. Ontdek hoe wij uw kroon in een sessie maken en plaatsen.</p>
+          <a href="#" class="blog-link">Lees meer &rarr;</a>
+        </div>
+      </article>
+      <article class="blog-card">
+        <div class="blog-img"><img src="images/detail.jpg" alt="Blog: 3D implantaten" loading="lazy"></div>
+        <div class="blog-body">
+          <div class="blog-meta"><span class="blog-tag">Implantaten</span><time>3 apr 2026</time></div>
+          <h3>3D-Geleide Implantaten: Precisie tot op de mm</h3>
+          <p>Waarom navigatie-implantologie veiliger en nauwkeuriger is dan de traditionele methode.</p>
+          <a href="#" class="blog-link">Lees meer &rarr;</a>
+        </div>
+      </article>
+      <article class="blog-card">
+        <div class="blog-img"><img src="images/project1.jpg" alt="Blog: digital smile design" loading="lazy"></div>
+        <div class="blog-body">
+          <div class="blog-meta"><span class="blog-tag">Cosmetisch</span><time>28 mrt 2026</time></div>
+          <h3>Digital Smile Design: Uw Glimlach Vooraf Zien</h3>
+          <p>Bekijk uw eindresultaat voor de behandeling begint met ons DSD-protocol.</p>
+          <a href="#" class="blog-link">Lees meer &rarr;</a>
+        </div>
+      </article>
+      <article class="blog-card">
+        <div class="blog-img"><img src="images/project2.jpg" alt="Blog: laserbehandeling" loading="lazy"></div>
+        <div class="blog-body">
+          <div class="blog-meta"><span class="blog-tag">Laser</span><time>22 mrt 2026</time></div>
+          <h3>Lasertandheelkunde: Minder Pijn, Sneller Herstel</h3>
+          <p>De voordelen van diodelaser bij tandvleesbehandelingen en bleaching.</p>
+          <a href="#" class="blog-link">Lees meer &rarr;</a>
+        </div>
+      </article>
+      <article class="blog-card">
+        <div class="blog-img"><img src="images/kitchen.jpg" alt="Blog: mondhygiene tech" loading="lazy"></div>
+        <div class="blog-body">
+          <div class="blog-meta"><span class="blog-tag">Hygiene</span><time>15 mrt 2026</time></div>
+          <h3>GBT: De Gouden Standaard in Mondhygiene</h3>
+          <p>Waarom Guided Biofilm Therapy effectiever is dan traditionele reiniging.</p>
+          <a href="#" class="blog-link">Lees meer &rarr;</a>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- CTA -->
+<section class="cta" id="contact">
+  <div class="container">
+    <div class="cta-wrapper" data-animate="fade-up">
+      <div class="cta-grid-bg"></div>
+      <div class="cta-content">
+        <span class="section-label">&lt;contact /&gt;</span>
+        <h2>Klaar voor <span class="text-accent">hightech</span> tandzorg?</h2>
+        <p>Boek uw eerste consult en ervaar het verschil van technologie-gedreven tandheelkunde. Inclusief gratis 3D-scan bij uw eerste bezoek.</p>
+        <div class="cta-actions">
+          <a href="tel:+31301234567" class="btn btn-primary"><span>Bel: 030 123 4567</span><span class="btn-arrow">&rarr;</span></a>
+          <a href="#" class="btn btn-ghost">Online Boeken</a>
+        </div>
+        <div class="cta-info">
+          <div class="cta-info-item"><i data-lucide="map-pin"></i><span>Oudegracht 88, Utrecht</span></div>
+          <div class="cta-info-item"><i data-lucide="clock"></i><span>Ma-Vr 7:30 - 21:00 | Za 8:00 - 16:00</span></div>
+          <div class="cta-info-item"><i data-lucide="mail"></i><span>info@dentaltech.nl</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <a href="#" class="footer-logo">Dental<span>Tech</span></a>
+        <p>Hightech tandheelkunde met een menselijke touch in het hart van Utrecht.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Behandelingen</h4>
+        <ul>
+          <li><a href="#diensten">Controle & Reiniging</a></li>
+          <li><a href="#diensten">Vullingen & Kronen</a></li>
+          <li><a href="#diensten">Implantaten</a></li>
+          <li><a href="#diensten">Orthodontie</a></li>
+          <li><a href="#diensten">Cosmetisch</a></li>
+          <li><a href="#diensten">Mondhygiene</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Praktijk</h4>
+        <ul>
+          <li><a href="#over-ons">Over Ons</a></li>
+          <li><a href="#voor-en-na">Resultaten</a></li>
+          <li><a href="#blog">Blog</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li><a href="#">Privacy</a></li>
+          <li><a href="#">Voorwaarden</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Contact</h4>
+        <ul>
+          <li>Oudegracht 88</li>
+          <li>3511 AX Utrecht</li>
+          <li><a href="tel:+31301234567">030 123 4567</a></li>
+          <li><a href="mailto:info@dentaltech.nl">info@dentaltech.nl</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2026 DentalTech Utrecht. Alle rechten voorbehouden.</p>
+    </div>
+  </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/gsap@3/dist/gsap.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/gsap@3/dist/ScrollTrigger.min.js"></script>
+<script src="css/script.js"></script>
+</body>
+</html>

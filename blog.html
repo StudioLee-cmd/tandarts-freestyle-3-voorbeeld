@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blog | DentalTech Voorbeeld Utrecht</title>
+  <meta name="description" content="Medische innovatie, technologie en gezondheidsinzichten van de specialisten van DentalTech Voorbeeld Utrecht.">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/iconify-icon@1.0.8/dist/iconify-icon.min.js"></script>
+</head>
+<body>
+
+<!-- ========== NAVBAR ========== -->
+<nav class="navbar" id="navbar">
+  <div class="container">
+    <a href="/" class="nav-logo">Tandarts<span>Tech</span></a>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="index.html#about">Over Ons</a></li>
+      <li><a href="index.html#services">Diensten</a></li>
+      <li><a href="index.html#ba">Resultaten</a></li>
+      <li><a href="index.html#team">Team</a></li>
+      <li><a href="blog.html">Blog</a></li>
+    </ul>
+    <a href="index.html#cta" class="nav-cta">Afspraak Maken</a>
+    <button class="hamburger" id="hamburger" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</nav>
+
+<!-- ========== PAGE HERO ========== -->
+<section class="page-hero">
+  <div class="container">
+    <div class="badge">blog</div>
+    <h1>Medische <span>Innovatie</span> & Inzichten</h1>
+    <p>Diepgaande artikelen over technologie in de zorg, behandelinnovaties en preventieve gezondheidstips.</p>
+  </div>
+</section>
+
+<!-- ========== BLOG GRID ========== -->
+<section class="blog-grid-section">
+  <div class="container">
+    <div class="blog-grid">
+      <article class="blog-card">
+        <img src="images/carousel.jpg" alt="AI in diagnostiek" loading="lazy">
+        <div class="blog-card-body">
+          <span class="blog-tag">Innovatie</span>
+          <h3>Hoe AI de Diagnostiek Revolutioneert in 2026</h3>
+          <p>Van beeldherkenning tot voorspellende modellen — hoe kunstmatige intelligentie artsen helpt sneller en nauwkeuriger te diagnosticeren.</p>
+          <div class="blog-meta">
+            <span>12.04.2026</span>
+            <span>8 min read</span>
+          </div>
+        </div>
+      </article>
+      <article class="blog-card">
+        <img src="images/detail.jpg" alt="Precision medicine" loading="lazy">
+        <div class="blog-card-body">
+          <span class="blog-tag">Cosmetisch</span>
+          <h3>3D-Mapping voor Cosmetische Tandheelkunde: De Nieuwe Standaard</h3>
+          <p>Waarom digitale gezichtsanalyse de toekomst is van cosmetische geneeskunde en hoe het uw resultaten verbetert.</p>
+          <div class="blog-meta">
+            <span>08.04.2026</span>
+            <span>6 min read</span>
+          </div>
+        </div>
+      </article>
+      <article class="blog-card">
+        <img src="images/craft.jpg" alt="Sensor-gestuurde fysiotherapie" loading="lazy">
+        <div class="blog-card-body">
+          <span class="blog-tag">Fysiotherapie</span>
+          <h3>Wearables in de Fysiotherapie: Realtime Feedback voor Sneller Herstel</h3>
+          <p>Hoe sensortechnologie objectieve metingen mogelijk maakt en uw revalidatie versnelt.</p>
+          <div class="blog-meta">
+            <span>03.04.2026</span>
+            <span>5 min read</span>
+          </div>
+        </div>
+      </article>
+      <article class="blog-card">
+        <img src="images/about.jpg" alt="Dermatologie AI" loading="lazy">
+        <div class="blog-card-body">
+          <span class="blog-tag">Dermatologie</span>
+          <h3>AI-Huidscreening: Vroege Detectie van Huidkanker met 97% Nauwkeurigheid</h3>
+          <p>De nieuwste ontwikkelingen in AI-gestuurde dermatoscopie en wat het betekent voor uw jaarlijkse controle.</p>
+          <div class="blog-meta">
+            <span>28.03.2026</span>
+            <span>7 min read</span>
+          </div>
+        </div>
+      </article>
+      <article class="blog-card">
+        <img src="images/project1.jpg" alt="Femtosecondlaser" loading="lazy">
+        <div class="blog-card-body">
+          <span class="blog-tag">Oogheelkunde</span>
+          <h3>Femtosecondlaser: Precisie op Microniveau voor Uw Ogen</h3>
+          <p>Alles over de nieuwste generatie lasers in de oogheelkunde en waarom precisie het verschil maakt.</p>
+          <div class="blog-meta">
+            <span>22.03.2026</span>
+            <span>6 min read</span>
+          </div>
+        </div>
+      </article>
+      <article class="blog-card">
+        <img src="images/project2.jpg" alt="Biomarker analyse" loading="lazy">
+        <div class="blog-card-body">
+          <span class="blog-tag">Controlef</span>
+          <h3>Biomarkers Ontcijferd: Wat Uw Bloed Over Uw Toekomst Vertelt</h3>
+          <p>Van cholesterol tot inflammatiemarkers — hoe geavanceerde bloedanalyse uw gezondheidsrisico's in kaart brengt.</p>
+          <div class="blog-meta">
+            <span>15.03.2026</span>
+            <span>9 min read</span>
+          </div>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ========== CTA ========== -->
+<section class="cta" id="cta">
+  <div class="cta-bg"></div>
+  <div class="container">
+    <div class="cta-content">
+      <div class="badge">contact</div>
+      <h2>Ervaar <span>Innovatieve</span> Zorg</h2>
+      <p>Ontdek wat medische technologie voor u kan betekenen. Boek een consult bij DentalTech Voorbeeld Utrecht.</p>
+      <a href="#" class="btn-primary">
+        <i data-lucide="calendar"></i> Boek Uw Consult
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ========== FOOTER ========== -->
+<footer class="footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <a href="/" class="nav-logo">Tandarts<span>Tech</span></a>
+        <p>DentalTech Voorbeeld Utrecht. Innovatieve medische zorg, aangedreven door data en technologie. Persoonlijk, precies en vooruitstrevend.</p>
+      </div>
+      <div>
+        <h4>Diensten</h4>
+        <ul>
+          <li><a href="index.html#services">Huisartsenzorg</a></li>
+          <li><a href="index.html#services">Cosmetisch</a></li>
+          <li><a href="index.html#services">Fysiotherapie</a></li>
+          <li><a href="index.html#services">Dermatologie</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Tandarts</h4>
+        <ul>
+          <li><a href="index.html#about">Over Ons</a></li>
+          <li><a href="index.html#team">Ons Team</a></li>
+          <li><a href="index.html#ba">Resultaten</a></li>
+          <li><a href="blog.html">Blog</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Contact</h4>
+        <ul>
+          <li><a href="#">Croeselaan 44, Utrecht</a></li>
+          <li><a href="tel:+31301234567">030 - 123 4567</a></li>
+          <li><a href="mailto:info@tandartstech.nl">info@tandartstech.nl</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      &copy; 2026 DentalTech Voorbeeld Utrecht. Alle rechten voorbehouden.
+    </div>
+  </div>
+</footer>
+
+<script>
+  lucide.createIcons();
+  gsap.registerPlugin(ScrollTrigger);
+
+  window.addEventListener('scroll', () => {
+    document.getElementById('navbar').classList.toggle('scrolled', window.scrollY > 50);
+  });
+  document.getElementById('hamburger').addEventListener('click', () => {
+    document.getElementById('navLinks').classList.toggle('open');
+  });
+
+  gsap.from('.page-hero .badge', { opacity: 0, y: 20, duration: .6, delay: .2 });
+  gsap.from('.page-hero h1', { opacity: 0, y: 30, duration: .8, delay: .4 });
+  gsap.from('.page-hero p', { opacity: 0, y: 20, duration: .6, delay: .6 });
+
+  gsap.from('.blog-card', {
+    scrollTrigger: { trigger: '.blog-grid-section', start: 'top 80%' },
+    opacity: 0, y: 50, duration: .7, stagger: .1
+  });
+
+  gsap.from('.cta-content', {
+    scrollTrigger: { trigger: '.cta', start: 'top 80%' },
+    opacity: 0, y: 40, duration: 1
+  });
+</script>
+</body>
+</html>
